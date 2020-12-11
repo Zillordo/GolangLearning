@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="781746a7-b7b9-493c-bd61-8ad4b9e91a2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/bcrypt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/templates/bar.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/templates/index.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/templates/signup.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/session/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/session/templates/bar.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/session/templates/index.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/signup/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/signup/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/signup/templates/bar.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/signup/templates/index.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/signup/templates/signup.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/uuid/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://C:/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lTK6HaaStbJF5N29Mh6iHCzK1C" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sessions/bcrypt/session.go" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoLang\GolangLearning\sessions\bcrypt" />
+      <recent name="D:\GoLang\GolangLearning\sessions\session" />
+      <recent name="D:\GoLang\GolangLearning\sessions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build bcrypt.go session.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GolangLearning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/sessions/bcrypt/bcrypt.go|$PROJECT_DIR$/sessions/bcrypt/session.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build bcrypt.go session.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="781746a7-b7b9-493c-bd61-8ad4b9e91a2f" name="Default Changelist" comment="" />
+      <created>1607615465584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607615465584</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1607615654717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607615654717</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+</project>
