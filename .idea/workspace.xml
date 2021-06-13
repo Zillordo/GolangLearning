@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="781746a7-b7b9-493c-bd61-8ad4b9e91a2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/bcrypt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/session.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/templates/bar.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/templates/index.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/bcrypt/templates/signup.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/session/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/session/templates/bar.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/session/templates/index.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/signup/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/signup/session.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/signup/templates/bar.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/signup/templates/index.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/signup/templates/signup.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/uuid/main.go" afterDir="false" />
+    <list default="true" id="781746a7-b7b9-493c-bd61-8ad4b9e91a2f" name="Default Changelist" comment="continuing go learning udemy course">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go &amp; Mongodb/controllers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go &amp; Mongodb/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go &amp; Mongodb/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObserverPattern/observer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsHelloWorld/app" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awsHelloWorld/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lognPolling/longPolling.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/login/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/login/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/login/templates/bar.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/login/templates/index.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/login/templates/login.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/login/templates/signup.gohtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/endpoint.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/logic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/repo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/requests.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMicroService/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdevtoolkit/Base64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdevtoolkit/HMAC.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdevtoolkit/TLS&amp;HTTPS.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdevtoolkit/context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdevtoolkit/key/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdevtoolkit/key/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websockets/ws.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go File" />
         <option value="Go Application" />
       </list>
     </option>
@@ -46,33 +60,74 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sessions/bcrypt/session.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sessions/login/session.go" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoLang\GolangLearning\webdevtoolkit\key" />
+      <recent name="D:\GoLang\GolangLearning" />
       <recent name="D:\GoLang\GolangLearning\sessions\bcrypt" />
       <recent name="D:\GoLang\GolangLearning\sessions\session" />
       <recent name="D:\GoLang\GolangLearning\sessions" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="go build bcrypt.go session.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build Base64.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GolangLearning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/sessions/bcrypt/bcrypt.go|$PROJECT_DIR$/sessions/bcrypt/session.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/webdevtoolkit/Base64.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build TLS&amp;HTTPS.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GolangLearning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/webdevtoolkit/TLS&amp;HTTPS.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build context.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GolangLearning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/webdevtoolkit/context.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build example.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GolangLearning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$APPLICATION_CONFIG_DIR$/scratches/example.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GolangLearning" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Go &amp; Mongodb/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build bcrypt.go session.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build example.go" />
+        <item itemvalue="Go Build.go build TLS&amp;HTTPS.go" />
+        <item itemvalue="Go Build.go build context.go" />
+        <item itemvalue="Go Build.go build Base64.go" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607615654717</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1607682731384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607682731384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,10 +170,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="continuing go learning udemy course" />
+    <option name="LAST_COMMIT_MESSAGE" value="continuing go learning udemy course" />
   </component>
 </project>
