@@ -1,21 +1,24 @@
 package controllers
 
 import (
-	"../models"
 	"encoding/json"
 	"fmt"
+	"net/http"
+
 	"github.com/julienschmidt/httprouter"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"net/http"
+
+	"../models"
 )
 
 type UserController struct {
-	session *mgo.Session
+	collection *mgo.Collection
+	database   *mgo.Database
 }
 
-func NewUserController(s *mgo.Session) *UserController {
-	return &UserController{s}
+func NewUserController(d *mgo.Database) *UserController {
+	return &UserController{d.C("users"), d}
 }
 
 func (uc UserController) GetUser(w http.ResponseWriter, _ *http.Request, p httprouter.Params) {
@@ -30,8 +33,7 @@ func (uc UserController) GetUser(w http.ResponseWriter, _ *http.Request, p httpr
 
 	u := models.User{}
 
-	fmt.Println(oid.Valid())
-	if err := uc.session.DB("wdg").C("users").FindId(oid).One(&u); err != nil {
+	if err := uc.collection.FindId(oid).One(&u); err != nil {
 		w.WriteHeader(http.StatusNotFound)
 		return
 	}
@@ -53,7 +55,7 @@ func (uc UserController) CreateUser(w http.ResponseWriter, r *http.Request, _ ht
 
 	u.Id = bson.NewObjectId()
 
-	_ = uc.session.DB("wdg").C("users").Insert(u)
+	_ = uc.collection.Insert(u)
 
 	uj, err := json.Marshal(u)
 	if err != nil {
@@ -75,7 +77,7 @@ func (uc UserController) DeleteUser(w http.ResponseWriter, _ *http.Request, p ht
 
 	oid := bson.ObjectIdHex(id)
 
-	if err := uc.session.DB("wdg").C("users").RemoveId(oid); err != nil {
+	if err := uc.collection.RemoveId(oid); err != nil {
 		w.WriteHeader(http.StatusNotFound)
 		return
 	}

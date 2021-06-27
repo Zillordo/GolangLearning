@@ -2,36 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="781746a7-b7b9-493c-bd61-8ad4b9e91a2f" name="Default Changelist" comment="continuing go learning udemy course">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go &amp; Mongodb/controllers/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go &amp; Mongodb/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go &amp; Mongodb/models/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObserverPattern/observer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsHelloWorld/app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awsHelloWorld/index.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lognPolling/longPolling.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/login/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/login/session.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/login/templates/bar.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/login/templates/index.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/login/templates/login.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/login/templates/signup.gohtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/endpoint.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/logic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/repo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/requests.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMicroService/account/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMicroService/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdevtoolkit/Base64.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdevtoolkit/HMAC.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdevtoolkit/TLS&amp;HTTPS.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdevtoolkit/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdevtoolkit/key/cert.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdevtoolkit/key/key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websockets/ws.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/app/app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/controllers/users_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/domain/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/domain/user_dao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/domain/user_dao_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/services/user_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/utils/errors_utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/utils/sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVC pattern/utils/sort_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-docker/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning-docker/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go &amp; Mongodb/controllers/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go &amp; Mongodb/controllers/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go &amp; Mongodb/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go &amp; Mongodb/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Go &amp; Mongodb/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/Go &amp; Mongodb/models/user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +36,20 @@
   <component name="GOROOT" url="file://C:/Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/learning-docker/dockerfile" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="Make.Settings">
+    <option name="autoScrollToSourceInToolWindow" value="true" />
   </component>
   <component name="ProjectId" id="1lTK6HaaStbJF5N29Mh6iHCzK1C" />
   <component name="ProjectLevelVcsManager">
@@ -68,66 +69,66 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sessions/login/session.go" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MVC pattern/domain/user_dao_test.go" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoLang\GolangLearning\learning-docker" />
+      <recent name="D:\GoLang\GolangLearning\learning-docker\src" />
+      <recent name="D:\GoLang\GolangLearning\learning-docker\src\app" />
+      <recent name="D:\GoLang\GolangLearning\learning-docker\src\main.go" />
       <recent name="D:\GoLang\GolangLearning\webdevtoolkit\key" />
-      <recent name="D:\GoLang\GolangLearning" />
-      <recent name="D:\GoLang\GolangLearning\sessions\bcrypt" />
-      <recent name="D:\GoLang\GolangLearning\sessions\session" />
-      <recent name="D:\GoLang\GolangLearning\sessions" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build Base64.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GolangLearning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/webdevtoolkit/Base64.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build TLS&amp;HTTPS.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GolangLearning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/webdevtoolkit/TLS&amp;HTTPS.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build context.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GolangLearning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/webdevtoolkit/context.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build example.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GolangLearning" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$APPLICATION_CONFIG_DIR$/scratches/example.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.banch_mark_sort">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GolangLearning" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Go &amp; Mongodb/main.go" />
+      <filePath value="$PROJECT_DIR$/MVC pattern/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="banch_mark_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="GolangLearning" />
+      <working_directory value="$PROJECT_DIR$/MVC pattern/utils" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/MVC pattern/utils/sort_test.go|$PROJECT_DIR$/MVC pattern/utils/sort.go" />
+      <framework value="gobench" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sort_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="GolangLearning" />
+      <working_directory value="$PROJECT_DIR$/MVC pattern/utils" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/MVC pattern/utils/sort_test.go|$PROJECT_DIR$/MVC pattern/utils/sort.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user_dao_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="GolangLearning" />
+      <working_directory value="$PROJECT_DIR$/MVC pattern/domain" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/MVC pattern/domain/user_dao_test.go|$PROJECT_DIR$/MVC pattern/domain/user_dao.go|$PROJECT_DIR$/MVC pattern/domain/user.go" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Test.user_dao_test" />
+      <item itemvalue="Go Test.sort_test" />
+      <item itemvalue="Go Test.banch_mark_sort" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build example.go" />
-        <item itemvalue="Go Build.go build TLS&amp;HTTPS.go" />
-        <item itemvalue="Go Build.go build context.go" />
-        <item itemvalue="Go Build.go build Base64.go" />
+        <item itemvalue="Go Test.banch_mark_sort" />
+        <item itemvalue="Go Test.sort_test" />
+        <item itemvalue="Go Test.sort_test" />
+        <item itemvalue="Go Test.user_dao_test" />
       </list>
     </recent_temporary>
   </component>
@@ -177,5 +178,10 @@
     <MESSAGE value="commit" />
     <MESSAGE value="continuing go learning udemy course" />
     <option name="LAST_COMMIT_MESSAGE" value="continuing go learning udemy course" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GolangLearning$user_dao_test_go.out" NAME="user_dao_test.go Coverage Results" MODIFIED="1624791906574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GolangLearning$TestGetUserNoError_in_user_dao_test_go.out" NAME="TestGetUserNoError in user_dao_test.go Coverage Results" MODIFIED="1624790703752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GolangLearning$TestGetUserNoUserFound_in_user_dao_test_go.out" NAME="TestGetUserNoUserFound in user_dao_test.go Coverage Results" MODIFIED="1624789355798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

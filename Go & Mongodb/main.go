@@ -1,27 +1,29 @@
 package main
 
 import (
-	"./controllers"
-	"github.com/julienschmidt/httprouter"
-	"gopkg.in/mgo.v2"
 	"log"
 	"net/http"
+
+	"github.com/julienschmidt/httprouter"
+	"gopkg.in/mgo.v2"
+
+	"./controllers"
 )
 
 func main() {
 	router := httprouter.New()
-	userController := controllers.NewUserController(getSession())
+	userController := controllers.NewUserController(getDatabase())
 	router.GET("/user/:id", userController.GetUser)
 	router.POST("/user", userController.CreateUser)
 	router.DELETE("/user/:id", userController.DeleteUser)
-	log.Fatal(http.ListenAndServe("localhost:8080", router))
+	log.Fatal(http.ListenAndServe("localhost:8000", router))
 }
 
-func getSession() *mgo.Session {
+func getDatabase() *mgo.Database {
 	s, err := mgo.Dial("mongodb://localhost:27017")
 
 	if err != nil {
 		panic(err)
 	}
-	return s
+	return s.DB("wdg")
 }

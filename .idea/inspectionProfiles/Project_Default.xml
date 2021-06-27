@@ -1,6 +1,9 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="CyclomaticComplexityJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_limit" value="10" />
+    </inspection_tool>
     <inspection_tool class="GoUnhandledErrorResult" enabled="true" level="WARNING" enabled_by_default="true">
       <methods>
         <method importPath="hash" receiver="Hash" name="Write" />
@@ -15,6 +18,9 @@
         <method importPath="math/rand" receiver="*Rand" name="Read" />
         <method importPath="database/sql" receiver="*DB" name="Close" />
       </methods>
+    </inspection_tool>
+    <inspection_tool class="StatementsPerFunctionJS" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_limit" value="30" />
     </inspection_tool>
   </profile>
 </component>
